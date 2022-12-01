@@ -1,0 +1,26 @@
+.explore_content{
+width: 80%;
+}
+.explore_card{
+    border: 1px solid grey;
+    margin:2rem 0;
+    border-radius: 5px;
+    height: 3rem;
+
+}
+.explore_card_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+
+.explore_card_heading.explore_heading{
+    align-items: flex-start;
+}
+.explore_card_heading.explore_icon{
+    align-items: flex-end;
+}
+.explore_card_content{
+    display: none;
+}
