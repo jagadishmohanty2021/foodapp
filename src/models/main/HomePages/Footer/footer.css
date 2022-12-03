@@ -1,0 +1,75 @@
+.footer_main {
+    background-color: rgb(245, 245, 245);
+}
+
+.footer_content_main {
+    margin: 0 8rem 0 8rem;
+}
+
+.footer_content_main h4 {
+    padding: 1rem 0;
+}
+
+.footer_first_content {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.footer_first_content h1 {
+    flex: 5;
+}
+
+.footer_first_content button {
+    padding:5px;
+    margin:0 5px;
+}
+.footer_first_content button span {
+    padding-right:5px;
+}
+
+.footer_second_content {
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    line-height: 1.8rem;
+
+}
+
+.footer_second_content div {
+    flex: 1;
+}
+
+.footer_second_content ul {
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.footer_second_content li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer_about_zomato {}
+
+.social_links {
+    display: flex;
+}
+
+.footer_icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.footer_icon img {
+    height: 100%;
+    width: 150px;
+    min-width: 80px;
+    max-width: 170px;
+}
+
+.social_links li {
+    padding-right: 1rem;
+    font-size: 20px;
+}
