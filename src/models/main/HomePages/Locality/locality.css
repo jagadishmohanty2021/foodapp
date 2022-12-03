@@ -1,24 +1,25 @@
-.main_locality{
-width: 80%;
-margin-top:20px;
+.main_locality {
+    margin: 0 8rem 0 8rem;
 }
-.content_desc{
+
+.content_desc {
     font-size: 1.6rem;
     padding: 0px 0px 30px 0px;
 }
+
 .main_city {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:10px;
+    gap: 10px;
     justify-content: center;
     justify-items: center;
     text-align: left;
     align-items: center;
     margin-bottom: 20px;
-    
+
 }
 
-.city_content{
+.city_content {
     width: 100%;
     line-height: 1.8rem;
     padding: 10px;
@@ -26,14 +27,33 @@ margin-top:20px;
     box-sizing: border-box;
     border-radius: 5px;
     height: 100%;
-    /* box-shadow: 0 0px 8px -2.5px; */
+    display: flex;
+}
 
+.city_data {
+    flex: 2;
 }
-.city_heading{
+
+.city_heading {
     font-size: 1.3rem;
+    width: 100%;
 }
-#last .city_heading{
+
+.cityarrow {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:15px;
+}
+
+#last .city_heading {
+    display: flex;
     text-align: center;
     justify-content: center;
-    margin-top:15px;
+    margin-top: 15px;
+}
+
+.city_heading span:last-child {
+    margin-top: 4px;
+    margin-left:5px;
 }

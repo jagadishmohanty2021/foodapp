@@ -49,19 +49,56 @@ import second4 from '../assets/images/second4.jpg'
     const exploreData=[
       {
         heading:"Popular cuisines near me",
-        content:"Beverages food near meBiryani food near meBurger food near meChinese food near meContinental food near meDesserts food near meIce Cream food near meItalian food near meJuices food near meKebab food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me"
+        content:["Beverages food near me","Biryani food near me","Burger food near me","Chinese food near me","Continental food near me","Desserts food near me","Ice Cream food near me","Italian food near me","Juices food near me","Kebab food near me","Mughlai food near me","North Indian food near me","Pizza food near me","Rolls food near me","Sandwich food near me","Seafood food near me","Shake food near me","Sichuan food near me","South Indian food near me","Street food near me"]
       },
       {
         heading:"Popular restaurant types near me",
-        content:"Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meSweet Shops near me"
+        content:["Bakeries near me","Bars near me","Beverage Shops near me","Bhojanalya near me","Cafés near me","Casual Dining near me","Clubs near me","Cocktail Bars near me","Confectioneries near me","Dessert Parlors near me","Dhabas near me","Fine Dining near me","Food Courts near me","Food Trucks near me","Irani Cafes near me","Kiosks near me","Lounges near me","Microbreweries near me","Paan Shop near me","Pubs near me","Quick Bites near me","Sweet Shops near me"]
       },
       {
         heading:"Top Restaurant Chains",
-        content:"Biryani BluesBurger KingDomino'sKFCKrispy Kreme"
+        content:["Biryani Blues","Burger King","Domino's","KFC","Krispy Kreme"]
       },
       {
         heading:"Cities We Deliver To",
-        content:"Delhi NCRKolkata Mumbai Bengaluru Pune Hyderabad Chennai Lucknow Kochi Jaipur Ahmedabad Chandigarh Goa Indore Gangtok Nashik Ooty"
+        content:["Delhi NCR","Kolkata","Mumbai","Bengaluru","Pune","Hyderabad","Chennai","Lucknow","Kochi","Jaipur","Ahmedabad","Chandigarh","Goa","Indore","Gangtok","Nashik","Ooty","Shimla","Ludhiana","Guwahati","Amritsar","Kanpur","Allahabad","Aurangabad","Bhopal","Ranchi","Visakhapatnam","Bhubaneswar","Coimbatore","Mangalore","Vadodara","Nagpur","Agra","Dehradun","Mysore","Puducherry","Surat","Varanasi","Patna","Udaipur","Khajuraho","Neemrana","Cuttack","Trivandrum","Haridwar","Leh","Pushkar","Rajkot","Madurai","Kozhikode","Alappuzha","Thrissur","Manipal","Vijayawada","Jodhpur","Kota","Ajmer","Mussoorie","Rishikesh","Jalandhar"]
       }
     ]
-export {cardData,secondData,exploreData}
+
+    const localData = [
+      {
+          city: "Jharsuguda",
+          places: "20 Places",
+      },
+      {
+          city: "Sambalpur",
+          places: "10 Places",
+      },
+      {
+          city: "Rourkela",
+          places: "30 Places",
+      },
+      {
+          city: "Bargarh",
+          places: "5 Places",
+      },
+      {
+          city: "Bolangir",
+          places: "3 Places",
+      },
+      {
+          city: "Titlagarh",
+          places: "2 Places",
+      },
+      {
+          city: "Bhubaneswar",
+          places: "30 Places",
+      },
+      {
+          city: "Cuttack",
+          places: "25 Places",
+      }
+
+  ]
+
+export {cardData,secondData,exploreData,localData}

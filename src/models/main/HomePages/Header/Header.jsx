@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './header.css';
-import { FaMobile, FaMapMarkerAlt, FaSearch, FaBars, FaRegWindowClose, FaArrowUp, FaArrowDown } from 'react-icons/fa';
+import { FaMobile, FaMapMarkerAlt, FaBars, FaRegWindowClose} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { RiArrowUpSLine, RiArrowDownSLine } from 'react-icons/ri'
+import {BsSearch} from 'react-icons/bs'
 import headerImage from '../../../../assets/images/headerimage.jpg'
 const Header = () => {
 
@@ -60,9 +62,9 @@ const Header = () => {
                         <p>Discover the best food & drinks in Odisha</p>
                     </div>
                     <div className="search_input">
-                        <div className='map'><span className='map_icon'><FaMapMarkerAlt /></span><input type="text" placeholder='' /></div><span className='up' onClick={() => { menu('up') }}><FaArrowUp /></span><span className='down' onClick={() => { menu('down') }}><FaArrowDown /></span>
+                        <div className='map'><span className='map_icon'><FaMapMarkerAlt /></span><input type="text" placeholder='' /></div><span className='up' onClick={() => { menu('up') }}><RiArrowUpSLine /></span><span className='down' onClick={() => { menu('down') }}><RiArrowDownSLine /></span>
                         <div className='bar'></div>
-                        <div className='search'><span className='search_icon'><FaSearch /></span><input type="text" placeholder='Search for restaurant, cuisine or a dish' /></div>
+                        <div className='search'><span className='search_icon'><BsSearch /></span><input type="text" placeholder='Search for restaurant, cuisine or a dish' /></div>
                     </div>
                 </div>
             </div>

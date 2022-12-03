@@ -1,7 +1,11 @@
+.second_card {
+    margin: 0 8rem 0 8rem;
+}
+
 .card_section {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     position: relative;
 }
 
@@ -13,21 +17,21 @@
     cursor: pointer;
     border: 0.01px solid rgba(128, 128, 128, 0.4);
     position: relative;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 
 .second_card_data img {
     width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     height: 100%;
 }
 
-.card_contain{
+.card_contain {
     position: absolute;
     /* bottom: 8px; */
     /* left: 16px; */
-    padding:16px;
+    padding: 16px;
     z-index: 0;
     /* color: white; */
     box-shadow: inset 0 -64px 15px rgba(0, 0, 0, 0.7);
@@ -38,24 +42,30 @@
     font-size: 1.2rem;
     /* font-weight: bold; */
 }
-.content1{
-    width: 80%;
+
+.content1 {
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
-.content_heading{
+.content_heading {
     font-size: 1.6rem;
     /* line-height: 1.2; */
     /* font-family:cursive; */
 }
 
-.sub_content{
+.sub_content {
     font-size: 1.2rem;
 }
 
-.sub_content .side_content{
+.sub_content .side_content {
     color: rgb(245, 110, 133);
     float: right;
+    display: flex;
+}
+
+.sub_content .side_content span:last-child {
+    margin-top: 4px;
 }
