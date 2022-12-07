@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 #last .city_heading {
@@ -55,5 +55,33 @@
 
 .city_heading span:last-child {
     margin-top: 4px;
-    margin-left:5px;
+    margin-left: 5px;
+}
+
+/* @media only screen and (max-width: 750px) {
+    .main_city {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+} */
+
+
+@media only screen and (max-width: 950px) {
+    .main_city {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .main_locality {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .main_city {
+        grid-template-columns: 1fr;
+    }
+
+    .main_locality {
+        margin: 0 1.5rem 0 1.5rem;
+    }
 }

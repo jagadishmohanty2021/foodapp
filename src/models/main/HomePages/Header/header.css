@@ -155,7 +155,10 @@ a {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 795px) {
+    .navbar{
+        text-align: left;
+    }
     .res_bar {
         display: block;
     }
@@ -178,7 +181,15 @@ a {
         border-radius: 0.6rem;
         padding: 0.3rem;
     }
-
+    .header_content{
+        margin: 0 1.5rem 0 1.5rem;
+    }
 
     
+}
+
+@media only screen and (max-width: 450px) {
+    .search_input .map {
+        width: 55%;
+    }
 }

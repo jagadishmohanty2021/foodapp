@@ -1,5 +1,5 @@
 .main_form {
-    background-color:rgb(255, 251, 247);
+    background-color: rgb(255, 251, 247);
     margin-top: 100px;
 }
 
@@ -65,8 +65,8 @@
     font-size: 1rem;
 }
 
-.download_app{
-    margin:2rem 0;
+.download_app {
+    margin: 2rem 0;
 }
 
 .download_app p {
@@ -76,6 +76,56 @@
 .download_icon img {
     height: 100%;
     width: 10rem;
-    margin-right:1rem;
-    margin-top:1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 950px) {
+    .main_content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .main_form{
+        margin-top:50px;
+    }
+    .mobile_icon img{
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .main_content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .form_section {
+        width: 100%;
+    }
+
+    .form_heading {
+        font-size: 2rem;
+    }
+
+    .form_input button {
+        font-size: 14px;
+    }
+
+    .download_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .download_icon img {
+        width: 95%;
+        margin-right: 0px;
+        height: auto;
+    }
+
 }

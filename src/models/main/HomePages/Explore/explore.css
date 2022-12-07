@@ -56,3 +56,16 @@
     padding-right: 15px;
     margin: 0;
 }
+
+@media only screen and (max-width: 795px) {
+    .explore_content {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .explore_content h1 {
+        font-size: 28px;
+    }
+}

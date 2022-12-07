@@ -69,3 +69,41 @@
 .sub_content .side_content span:last-child {
     margin-top: 4px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .card_section {
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+        align-items: center;
+    }
+    .second_card {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .card_section {
+       grid-template-columns: repeat(2,1fr);
+    }
+    .second_card {
+        margin: 0 2rem 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .sub_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_content span{
+        line-height: 35px;
+        text-align: justify;
+    }
+    .card_section {
+        grid-template-columns: 1fr;
+     }
+     .second_card {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+    
+}

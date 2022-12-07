@@ -13,6 +13,8 @@ const Header = () => {
         const closeBar = document.querySelector('.close_bar')
         const navbar = document.querySelector('ul')
         const rightNav = document.getElementById('right')
+        const bgImage=document.getElementById('bgimage')
+        bgImage.style.height="110%"
         rightNav.style.float = "none"
         console.log(navbar)
         resBar.style.display = "none"
@@ -27,6 +29,8 @@ const Header = () => {
         closeBar.style.display = "none";
         resBar.style.display = "block";
         navbar.style.display = "none";
+        const bgImage=document.getElementById('bgimage')
+        bgImage.style.height="400px"
 
     }
     const menu = (key) => {
